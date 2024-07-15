@@ -1,5 +1,8 @@
 # Real-Time Weather Update Application 🌤️
 
+![Alt Text](images/preview.png)
+
+
 ## Overview
 This Android application delivers real-time weather updates tailored to users' current locations. By leveraging Java programming, it calculates precise latitude and longitude coordinates using device GPS or network services. Through seamless integration with the OpenWeatherMap API, it retrieves comprehensive weather data encompassing temperature, humidity, wind speed, and atmospheric conditions. The app presents this information in a user-friendly interface, ensuring users stay informed about weather conditions wherever they are.
 
