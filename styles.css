@@ -1,0 +1,154 @@
+/* Reset and General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #2c3e50; /* Dark blue */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 36px;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #3498db; /* Light blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin: 0;
+    animation: slideUp 1s ease-out;
+}
+
+.hero-description {
+    font-size: 24px;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2ecc71; /* Green */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    animation: pulse 1.5s infinite;
+}
+
+.btn-download:hover {
+    background-color: #27ae60; /* Darker green */
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Features Section Styles */
+.features {
+    background-color: #ecf0f1; /* Light grey */
+    text-align: center;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-out;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+.feature-title {
+    font-size: 24px;
+    margin: 0;
+    color: #3498db; /* Light blue */
+}
+
+.feature-description {
+    font-size: 20px;
+    color: #555555;
+}
+
+/* Adjusted Background Color for All Feature Boxes */
+.feature {
+    background-color: #fdcb6e; /* Light orange */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2c3e50; /* Dark blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-text {
+    margin: 0;
+    animation: fadeIn 1s ease-out;
+}
