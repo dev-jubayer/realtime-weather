@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     // Constants for permission and settings requests
     private static final int REQUEST_LOCATION_PERMISSION = 1;
     private static final int REQUEST_CHECK_SETTINGS = 2;
-    private static final String OPEN_WEATHER_MAP_API = "108af621b00c9f83f84201268d667640";
+    private static final String OPEN_WEATHER_MAP_API = "YOUR_API_KEY";
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     // UI elements
