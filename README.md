@@ -1,6 +1,6 @@
 # Real-Time Weather Update Application 🌤️
 
-![Alt Text]()
+![APPS PREVIEW](https://github.com/dev-jubayer/realtime-weather/blob/master/apps_preview.png?raw=true)
 
 
 ## Overview
