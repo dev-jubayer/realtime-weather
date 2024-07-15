@@ -17,7 +17,7 @@ This Android application delivers real-time weather updates tailored to users' c
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/devjubayer/weather-app.git
    ```
 2. Open the project in Android Studio.
 3. Replace `YOUR_API_KEY` in the code with your OpenWeatherMap API key.
